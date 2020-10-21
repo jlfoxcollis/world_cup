@@ -11,7 +11,6 @@ class PlayerTest < MiniTest::Test
     assert_instance_of Player, player
     assert_equal "Luka Modric", player.name
     assert_equal "midfielder", player.position
-
   end
 
 end
